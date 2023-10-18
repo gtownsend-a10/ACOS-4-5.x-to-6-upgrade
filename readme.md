@@ -401,12 +401,12 @@ See the highlighted lines in the following example output along with the corresp
 ACOS(config)# restore use-mgmt-port scp://root@192.168.2.2/root/user1/backup1 
 Password []?  
 
-A10 Product: 
-| Object | Backup device | Current device 
+A10 Product: ```
+| `Object` | `Backup device` | `Current device` 
 |----------------|-------------------------------|--------------------- 
-| Device | TH1030 | TH3030 
-|Image version | 4.1.1-P1 | 4.1.1-P2 
-
+| `Device` | `TH1030` | `TH3030` 
+|`Image version` | `4.1.1-P1` | `4.1.1-P2` 
+```
 System memory: 
     Object               Backup device        Current device 
 ------------------------------------------------------------------- 
